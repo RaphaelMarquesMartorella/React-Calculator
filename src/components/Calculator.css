@@ -1,0 +1,59 @@
+
+section {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+.wrapper {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 42vh;
+    border-radius: 15px;
+    
+}
+
+.wrapper button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    font-size: 30px;
+    
+    
+}
+
+.buttons {
+    margin-right: 30px;
+    
+}
+
+.wrapper button:hover {
+    cursor: pointer;
+}
+
+.orange {
+    background-color: #FF9500;
+    color: white;
+}
+
+.gray {
+    background-color: #505050;
+    color: white;
+}
+
+
+.wrapper h1 {
+    color: white;
+    display: flex;
+    justify-content: end;
+    padding-right: 70px;
+    font-size: 60px;
+    
+}
+
